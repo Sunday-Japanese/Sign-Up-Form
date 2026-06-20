@@ -7,37 +7,47 @@
     <link rel="stylesheet" href="Sign-up-Form/form.css">
 </head>
 <body>
-    <h1>Did it work?</h1>
-    <img class="logo" src="./odin-lined.png" alt="Odin Logo">
+    
+<div class="left">
+    <div class="divOne">
+        <img class="logo" src="./odin-lined.png" alt="Odin Logo">
+        <h1 class="headOne">Yashas</h1>
+    </div>
     <img class="backgroundImage" src="photo-1688432786453-c95b8f8e2f43.avif" alt="bright green leaves in dark background">
+    <h5 class="waterMark">Photo by <a href="" class="creator">Zulki Jrzt</a> form <a class="unsplash" href="">unsplash</a></h5>
+</div>
+
+<div class="right">
 <h3>This is not real online service! You know you need something like this in your life , so that you don't feel pathetic.But yet you are filling this amazing form wow, so, be very grateful.</h3>
 <h3>You know you want to do this right</h3>
 <form action="" method="get">
     <h1>Let's Do it</h1>
     <label for="firstInput" class="firstName">First Name</label>
-    <input type="text" id="firstInput" name="firstInput">
+    <input type="text" id="firstInput" name="firstInput" required>
 
     <label for="lastInput" class="lastName">Last Name</label>
-    <input type="text" id="lastInput" name="lastInput">
+    <input type="text" id="lastInput" name="lastInput" required>
 
     <label for="emailInput" class="email">Email</label>
-    <input type="email" id="emailInput" name="Email">
+    <input type="email" id="emailInput" name="Email" required>
 
     <label for="phoneInput" class="phoneNumber">Phone Number</label>
-    <input type="number" id="phoneInput" name="Phone Number">
+    <input type="number" id="phoneInput" name="Phone Number" required>
 
 
     <label for="psswdInput" class="psswd">Password</label>
-    <input type="password" id="psswdInput" name="Password">
+    <input type="password" id="psswdInput" name="Password" required>
 
 
     <label for="conformInput" class="conformpsswd">Confirm Password</label>
-    <input type="password" id="conformInput" name="Confirm Password">
+    <input type="password" id="conformInput" name="Confirm Password" required>
 </form>                    
 
-<button type="submit">Create Account</button>
+<button type="submit" class="createBtn">Create Account</button>
 <h5>Already have an account? <span class="login"><a href="">Log in</a></span></h5>
-<h5>Photo by <a href="" class="creator">Zulki Jrzt</a> form <a class="unsplash" href="">unsplash</a></h5>
+
+</div>
+
 
 </body>
 </html>
