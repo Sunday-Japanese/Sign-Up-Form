@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Norse;
+    src: url("../Norsebold.otf") format('opentype');
+}
+
+:root {
+    --logo-color: black;
+}
+
+h1 {
+    font-family: Norse,sans-serif;
+}
+
+.logo {
+    background-color: var(--logo-color);
+    position: absolute;
+}
